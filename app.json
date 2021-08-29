@@ -1,0 +1,29 @@
+{
+  "name": "Spooky Public BOT",
+  "description": "A telegram bot To Download Youtube Files * Fully Free",
+  "logo": "https://telegra.ph/file/8d6150fac7f5e1341b02a.jpg",
+  "keywords": [
+   "Youtube","Spooky" , "Alpha"
+  ],
+  "repository": "https://github.com/",
+  "success_url": "",
+  "website": "",
+  "env": {
+        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
+        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
+        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
+  },
+      "buildpacks": [
+        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
+        {"url": "heroku/python"}
+    ],
+  "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+      "stack": "heroku-20"
+
+
+}
