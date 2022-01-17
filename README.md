@@ -1,3 +1,4 @@
+<div align="center">
 <h1 align="center"><b>Spooky Public Bot</b></h1>
 
 ![logo](https://telegra.ph/file/8d6150fac7f5e1341b02a.jpg)
@@ -27,3 +28,4 @@
 # JOIN WITH US
 
 <a href="https://t.me/telegrm_music9"><img src="https://img.shields.io/badge/Join-Telegram%20Group-red.svg?logo=Telegram"></a>
+</div>
